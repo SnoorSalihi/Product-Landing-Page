@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    view-transition-name: root;
+}
+html {
+    display: block;
+}
+head {
+    display: none;
+}
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+#page-wrapper {
+    position: relative;
+}
+div {
+    display: block;
+}
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+}
