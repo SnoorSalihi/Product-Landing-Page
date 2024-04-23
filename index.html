@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div id="page-wrapper">
       <header id="header">
-        <div class="logi">
-          <img id="header-img" src="https://t4.ftcdn.net/jpg/03/65/60/77/360_F_365607756_xNxOj3Dnv21T3nfU8E1S3BfZeljW8POv.jpg" alt="kids clothes logo"/>
+        <div class="logo">
+          <img
+            id="header-img"
+            src="https://t4.ftcdn.net/jpg/03/65/60/77/360_F_365607756_xNxOj3Dnv21T3nfU8E1S3BfZeljW8POv.jpg" 
+            alt="kids clothes logo"
+          />
         </div>
+
         <nav id="nav-bar">
           <ul>
             <li><a class="nav-link" href="#Home">Home</a></li>
-            <li><a class="nav-link" href="#GIRLS">GIRLS</a></li>
-            <li><a class="nav-link" href="#BOYS">BOYS</a></li>
-            <li><a class="nav-link" href="#ACCESSORIES">ACCESSORIES</a></li>
-            <li><a class="nav-link" href="#VIEW_ALL">VIEW ALL</a></li>
-            <li><a class="nav-link" href="#ABOUT_US">ABOUT US</a></li>
-            <li><a class="nav-link" href="#CONTACT">CONTACT</a></li>
+            <li><a class="nav-link" href="#Products">PRODUCTS</a></li>
+            <li><a class="nav-link" href="#About_us">ABOUT US</a></li>
+            <li><a class="nav-link" href="#Contact">CONTACT</a></li>
           </ul>
         </nav>
       </header>
+
       <div class="container"></div>
-      <section id="form">
+
+      <section id="hero">
         <h2>Subscribe</h2>
-        <form id="form" action="">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
           <input
             name="email"
             id="email"
@@ -32,78 +36,96 @@
             placeholder="Enter your email address"
             required
           />
-          <input id="submit" type="submit" value="Get Started" class="btn"/>
+          <input id="submit" type="submit" value="Get Started" class="btn" />
         </form>
       </section>
+
       <div class="container">
         <section id="features">
           <div class="grid">
-            <div class="icon">
-              <i class="dress"></i>
-            </div>
+            <div class="icon"><i class="dress-matrial"></i></div>
             <div class="desc">
               <h2>Our Materials</h2>
-              <p>All our dresses made from organic materials. This will contribute to the climat change.</p>
+              <p>
+                Our trombones use the shiniest brass which is sourced locally.
+                This will increase the longevity of your purchase.
+              </p>
             </div>
           </div>
           <div class="grid">
-            <div class="icon">
-              <i class="dress"></i>
-            </div>
+            <div class="icon"><i class="dress-ship"></i></div>
             <div class="desc">
               <h2>Fast Shipping</h2>
-              <p>We make sure you recieve your order as soon as we have made it. We provide free returns if you are not satisfied.</p>
+              <p>
+                We make sure you recieve your order as soon as we have made it. We provide free returns if you are not satisfied.
+            </p>
             </div>
           </div>
           <div class="grid">
             <div class="icon">
-              <i class="dress" aria-hidden="true"></i>
+              <i class="dress-quality" aria-hidden="true"></i>
             </div>
             <div class="desc">
-              <h2>Quality assurance</h2>
-              <p>We make sure for every purchase you make, we will ensure there are no damages and we check the quality 100%.</p>
+              <h2>Quality Assurance</h2>
+              <p>
+                We make sure for every purchase you make, we will ensure there are no damages and we check the quality 100%.
+              </p>
             </div>
           </div>
         </section>
-        <section id="how-it-work">
-          <iframe 
-           id="video" 
-           height="315" 
-           src="" frameborder="0" 
-           allowfullscreen></iframe>
+        <section id="Home">
+          <iframe
+            id="video"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
         </section>
-        <section id="pricing">
-          <div class="product" id="Butterfly">
+        <section id="Products">
+          <div class="product" id="price">
             <div class="level">Butterfly dress</div>
-            <h2>$85</h2>
+            <h2>$60</h2>
             <ol>
-              <li>white color</li>
-              <li>Size 3-8 Old</li>
+                <li>white color</li>
+                <li>Size 3-8 Old</li>
             </ol>
             <button class="btn">Select</button>
           </div>
           <div class="product" id="Royal">
             <div class="level">Royal dress</div>
-            <h2>$100</h2>
+            <h2>$90</h2>
             <ol>
-              <li>3 Colors available</li>
-              <li>Size 1-8 Old</li>
+                <li>3 Colors available</li>
+                <li>Size 1-8 Old</li>
             </ol>
             <button class="btn">Select</button>
           </div>
           <div class="product" id="Wedding">
             <div class="level">Wedding dress</div>
-            <h2>$150</h2>
+            <h2>$100</h2>
             <ol>
-              <li>White Color</li>
-              <li>Size 3-9 Old</li>
+                <li>White Color</li>
+                <li>Size 3-9 Old</li>
             </ol>
             <button class="btn">Select</button>
           </div>
         </section>
+        <section id="About_us">
+            <div class="about" id="about">
+                <div class="level">About us</div>
+                <p>We started this businuss since 2021</p>
+            </div>
+        </section>
+        <section id="Contact">
+            <div id="contact">
+                <div class="level"></div>
+                <p>contact us on: 657 0000000</p>
+            </div>
+        </section>
         <footer>
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="#">Privacy</a></li>
             <li><a href="#">Terms</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
