@@ -68,7 +68,7 @@ header {
 }
 
 .logo {
-  width: 60vw;
+  width: 20vw;
 }
 
 @media (max-width: 650px) {
@@ -135,7 +135,7 @@ nav > ul {
   justify-content: center;
   text-align: center;
   height: 200px;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 #hero > h2 {
@@ -212,18 +212,18 @@ nav > ul {
   }
 }
 
-#how-it-works {
+#Home {
   margin-top: 50px;
   display: flex;
   justify-content: center;
 }
 
-#how-it-works > iframe {
+#Home > iframe {
   max-width: 560px;
   width: 100%;
 }
 
-#pricing {
+#Products {
   margin-top: 60px;
   display: flex;
   flex-direction: row;
